@@ -11,8 +11,6 @@ set directory=~/.vim.tmp
 set wildmode=longest,list,full
 set wildmenu
 
-set guifont=Monaco:h16
-
 set ml
 set number
 
@@ -38,10 +36,4 @@ inoremap <Down> <C-o>gj
 inoremap <Home> <C-o>g<Home>
 inoremap <End>  <C-o>g<End>
 
-
-if has("gui_running")
-  set guioptions-=m  "remove menu bar
-  set guioptions-=T  "remove toolbar
-  set lines=55 columns=180
-endif
 
