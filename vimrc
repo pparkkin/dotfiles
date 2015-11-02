@@ -58,3 +58,7 @@ nmap <leader>l :bnext<CR>
 
 " Move to the previous buffer
 nmap <leader>h :bprevious<CR>
+
+" Delete buffer
+nmap <leader>d :b#<bar>bd#<CR>
+
