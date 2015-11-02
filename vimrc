@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+set backspace=indent,eol,start
+
 set noerrorbells
 set novisualbell
 set visualbell t_vb=
@@ -37,3 +39,22 @@ inoremap <Home> <C-o>g<Home>
 inoremap <End>  <C-o>g<End>
 
 
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
+
+" This allows buffers to be hidden if you've modified a buffer.
+" This is almost a must if you wish to use buffers in this way.
+set hidden
+
+" To open a new empty buffer
+" This replaces :tabnew which I used to bind to this mapping
+nmap <leader>T :enew<cr>
+
+" Move to the next buffer
+nmap <leader>l :bnext<CR>
+
+" Move to the previous buffer
+nmap <leader>h :bprevious<CR>
