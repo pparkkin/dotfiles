@@ -33,8 +33,9 @@ if &term =~ "xterm"
   endif
 endif
 
-syntax on
+syntax enable
 filetype plugin indent on
+set background=dark
 colorscheme hybrid
 
 set tabstop=4
