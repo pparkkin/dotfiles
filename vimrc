@@ -33,6 +33,10 @@ if &term =~ "xterm"
   endif
 endif
 
+" Workaround issue in neovim
+" https://github.com/neovim/neovim/issues/7002#issuecomment-314792412
+set guicursor=
+
 syntax enable
 filetype plugin indent on
 set background=dark
