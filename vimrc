@@ -45,6 +45,11 @@ colorscheme hybrid
 " Enable powerline symbols
 let g:airline_powerline_fonts = 1
 
+" Enable line mode for ctrlp.vim
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlPLastMode'
+let g:ctrlp_extensions = ['line', 'mixed']
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
