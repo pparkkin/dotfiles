@@ -11,3 +11,7 @@
 And Neovim.
 
     ln -s ~/.vim ~/.config/nvim
+
+Patched fonts for airline.
+
+    sudo apt install fonts-powerline
