@@ -8,3 +8,6 @@
     ln -s ~/.dotfiles/vimrc ~/.vimrc
     ln -s ~/.dotfiles/vim ~/.vim
 
+And Neovim.
+
+    ln -s ~/.vim ~/.config/nvim
