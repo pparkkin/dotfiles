@@ -15,3 +15,11 @@ And Neovim.
 Patched fonts for airline.
 
     sudo apt install fonts-powerline
+
+## Set up Git aliases
+
+Add the following to your `~/.gitconfig`
+
+    [include]
+      path = ~/.dotfiles/gitaliases
+
