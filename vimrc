@@ -8,7 +8,7 @@ set noerrorbells
 set novisualbell
 set visualbell t_vb=
 
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 set directory=~/.vim.tmp
 
